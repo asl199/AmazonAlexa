@@ -14,7 +14,7 @@ WebDriver driver = new ChromeDriver();
     driver.get(url);
     }
 
-    @Given("^searches for \"([^\"]*)\"$")
+    @Given("^search for \"([^\"]*)\"$")
     public void searches_for(String arg1) throws Throwable {
 
     }
